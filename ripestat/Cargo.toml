@@ -1,0 +1,16 @@
+[package]
+name = "ripestat"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+
+ripestat-common = { version = "0.0.1", path = "../ripestat-common" }
+
+reqwest.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+
+[lints]
+workspace = true

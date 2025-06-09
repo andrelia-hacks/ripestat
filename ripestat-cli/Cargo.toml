@@ -1,0 +1,16 @@
+[package]
+name = "ripestat-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+
+ripestat = { version = "0.0.1", path = "../ripestat" }
+ripestat-common = { version = "0.0.1", path = "../ripestat-common" }
+
+thiserror.workspace = true
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+[lints]
+workspace = true
