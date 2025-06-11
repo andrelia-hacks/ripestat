@@ -509,3 +509,6 @@ pub enum RipeStatResponseData {
     WhoisResponse(WhoisResponse),
     WhoisObjectLastUpdatedResponse(WhoisObjectLastUpdatedResponse),
 }
+
+/// Version of this software.
+pub const VERSION: &str = env!("CARGO_PKG_VERSION");

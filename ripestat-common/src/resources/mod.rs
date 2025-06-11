@@ -181,14 +181,3 @@ pub(crate) mod speedchecker_bandwidth_measurements;
 pub(crate) mod visibility;
 pub(crate) mod whois;
 pub(crate) mod whois_object_last_updated;
-
-#[derive(Debug, Error)]
-pub enum RipestatResponseError {
-    /// An error has occurred parsing the JSON.
-    #[error(transparent)]
-    SerdeJson(#[from] serde_json::Error),
-
-    /// An error has occurred during the request
-    #[error(transparent)]
-    Client(#[from] reqwest::Error),
-}
