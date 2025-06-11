@@ -1,0 +1,403 @@
+{
+    "messages": [
+        [
+            "info",
+            "Query time has been set to latest time data is available for (2025-06-11 08:00 UTC)"
+        ]
+    ],
+    "see_also": [],
+    "version": "3.2",
+    "data_call_name": "visibility",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "visibilities": [
+            {
+                "probe": {
+                    "city": "Amsterdam",
+                    "country": "Netherlands",
+                    "longitude": 5.00953,
+                    "latitude": 55.6565,
+                    "name": "RRC00",
+                    "ipv4_peer_count": 60,
+                    "ipv6_peer_count": 45,
+                    "ixp": "RIPE-NCC Multihop"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 39
+            },
+            {
+                "probe": {
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "longitude": -0.01915,
+                    "latitude": 51.4969,
+                    "name": "RRC01",
+                    "ipv4_peer_count": 80,
+                    "ipv6_peer_count": 57,
+                    "ixp": "LINX / LONAP"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 30
+            },
+            {
+                "probe": {
+                    "city": "Amsterdam",
+                    "country": "Netherlands",
+                    "longitude": 4.95081,
+                    "latitude": 52.3563,
+                    "name": "RRC03",
+                    "ipv4_peer_count": 92,
+                    "ipv6_peer_count": 67,
+                    "ixp": "AMS-IX / NL-IX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [
+                    {
+                        "asn": 24482,
+                        "ip": "2001:7f8:1::a502:4482:1",
+                        "prefix_count": 217341
+                    }
+                ],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 33
+            },
+            {
+                "probe": {
+                    "city": "Geneva",
+                    "country": "Switzerland",
+                    "longitude": 6.05255,
+                    "latitude": 46.234,
+                    "name": "RRC04",
+                    "ipv4_peer_count": 13,
+                    "ipv6_peer_count": 9,
+                    "ixp": "CIXP"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 5
+            },
+            {
+                "probe": {
+                    "city": "Vienna",
+                    "country": "Austria",
+                    "longitude": 16.3575,
+                    "latitude": 48.214,
+                    "name": "RRC05",
+                    "ipv4_peer_count": 41,
+                    "ipv6_peer_count": 26,
+                    "ixp": "VIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 12
+            },
+            {
+                "probe": {
+                    "city": "Tokyo",
+                    "country": "Japan",
+                    "longitude": 139.769,
+                    "latitude": 35.6845,
+                    "name": "RRC06",
+                    "ipv4_peer_count": 12,
+                    "ipv6_peer_count": 9,
+                    "ixp": "DIX-IE / JPIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 5
+            },
+            {
+                "probe": {
+                    "city": "Stockholm",
+                    "country": "Sweden",
+                    "longitude": 18.0657,
+                    "latitude": 59.3177,
+                    "name": "RRC07",
+                    "ipv4_peer_count": 22,
+                    "ipv6_peer_count": 17,
+                    "ixp": "Netnod"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 9
+            },
+            {
+                "probe": {
+                    "city": "Milan",
+                    "country": "Italy",
+                    "longitude": 9.10271,
+                    "latitude": 45.4786,
+                    "name": "RRC10",
+                    "ipv4_peer_count": 31,
+                    "ipv6_peer_count": 25,
+                    "ixp": "MIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 13
+            },
+            {
+                "probe": {
+                    "city": "New York City",
+                    "country": "US",
+                    "longitude": -74.0135,
+                    "latitude": 40.7058,
+                    "name": "RRC11",
+                    "ipv4_peer_count": 25,
+                    "ipv6_peer_count": 22,
+                    "ixp": "NYIIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 9
+            },
+            {
+                "probe": {
+                    "city": "Frankfurt",
+                    "country": "Germany",
+                    "longitude": 8.70401,
+                    "latitude": 50.1124,
+                    "name": "RRC12",
+                    "ipv4_peer_count": 83,
+                    "ipv6_peer_count": 69,
+                    "ixp": "DE-CIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 35
+            },
+            {
+                "probe": {
+                    "city": "Moscow",
+                    "country": "Russian Federation",
+                    "longitude": 37.5949,
+                    "latitude": 55.7101,
+                    "name": "RRC13",
+                    "ipv4_peer_count": 15,
+                    "ipv6_peer_count": 13,
+                    "ixp": "MSK-IX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 5
+            },
+            {
+                "probe": {
+                    "city": "Palo Alto",
+                    "country": "US",
+                    "longitude": -122.161,
+                    "latitude": 37.4457,
+                    "name": "RRC14",
+                    "ipv4_peer_count": 14,
+                    "ipv6_peer_count": 11,
+                    "ixp": "PAIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 7
+            },
+            {
+                "probe": {
+                    "city": "Sao Paulo",
+                    "country": "Brazil",
+                    "longitude": -46.6947,
+                    "latitude": -23.6002,
+                    "name": "RRC15",
+                    "ipv4_peer_count": 32,
+                    "ipv6_peer_count": 28,
+                    "ixp": "PTTMetro"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 13
+            },
+            {
+                "probe": {
+                    "city": "Miami",
+                    "country": "US",
+                    "longitude": -80.197731,
+                    "latitude": 25.7748108,
+                    "name": "RRC16",
+                    "ipv4_peer_count": 15,
+                    "ipv6_peer_count": 14,
+                    "ixp": "NOTA"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 4
+            },
+            {
+                "probe": {
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC18",
+                    "ipv4_peer_count": 14,
+                    "ipv6_peer_count": 11,
+                    "ixp": "Catnix"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 1
+            },
+            {
+                "probe": {
+                    "city": "Johannesburg",
+                    "country": "South Africa",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC19",
+                    "ipv4_peer_count": 39,
+                    "ipv6_peer_count": 27,
+                    "ixp": "NAP Africa JB"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 7
+            },
+            {
+                "probe": {
+                    "city": "Zurich",
+                    "country": "Switzerland",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC20",
+                    "ipv4_peer_count": 32,
+                    "ipv6_peer_count": 36,
+                    "ixp": "SwissIX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 26
+            },
+            {
+                "probe": {
+                    "city": "Paris",
+                    "country": "France",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC21",
+                    "ipv4_peer_count": 39,
+                    "ipv6_peer_count": 38,
+                    "ixp": "France-IX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 20
+            },
+            {
+                "probe": {
+                    "city": "Bucharest",
+                    "country": "Romania",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC22",
+                    "ipv4_peer_count": 17,
+                    "ipv6_peer_count": 14,
+                    "ixp": "InterLAN"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 4
+            },
+            {
+                "probe": {
+                    "city": "Singapore",
+                    "country": "Singapore",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC23",
+                    "ipv4_peer_count": 31,
+                    "ipv6_peer_count": 29,
+                    "ixp": "Equinix SG"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 8
+            },
+            {
+                "probe": {
+                    "city": "Montevideo",
+                    "country": "Uruguay",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC24",
+                    "ipv4_peer_count": 17,
+                    "ipv6_peer_count": 16,
+                    "ixp": "LACNIC Multihop"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 12
+            },
+            {
+                "probe": {
+                    "city": "Amsterdam",
+                    "country": "Netherlands",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC25",
+                    "ipv4_peer_count": 63,
+                    "ipv6_peer_count": 59,
+                    "ixp": "RIPE-NCC Multihop"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 42
+            },
+            {
+                "probe": {
+                    "city": "Dubai",
+                    "country": "UAE",
+                    "longitude": 0,
+                    "latitude": 0,
+                    "name": "RRC26",
+                    "ipv4_peer_count": 17,
+                    "ipv6_peer_count": 13,
+                    "ixp": "UAE-IX"
+                },
+                "ipv4_full_table_peers_not_seeing": [],
+                "ipv6_full_table_peers_not_seeing": [],
+                "ipv4_full_table_peer_count": 0,
+                "ipv6_full_table_peer_count": 2
+            }
+        ],
+        "resource": "2001:67c:2e8::/48",
+        "related_prefixes": [],
+        "query_time": "2025-06-11T08:00:00",
+        "latest_time": "2025-06-11T08:00:00",
+        "include": []
+    },
+    "query_id": "20250611161005-10280649-5cb5-4cb4-9a1b-7ba3de41e0c9",
+    "process_time": 209,
+    "server_id": "app190",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:10:05.549420"
+}

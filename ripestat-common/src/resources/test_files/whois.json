@@ -1,0 +1,619 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "4.1",
+    "data_call_name": "whois",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "records": [
+            [
+                {
+                    "key": "NetRange",
+                    "value": "192.0.0.0 - 192.255.255.255",
+                    "details_link": null
+                },
+                {
+                    "key": "CIDR",
+                    "value": "192.0.0.0/8",
+                    "details_link": null
+                },
+                {
+                    "key": "NetName",
+                    "value": "NET192",
+                    "details_link": null
+                },
+                {
+                    "key": "NetHandle",
+                    "value": "NET-192-0-0-0-0",
+                    "details_link": null
+                },
+                {
+                    "key": "Parent",
+                    "value": "()",
+                    "details_link": null
+                },
+                {
+                    "key": "NetType",
+                    "value": "Early Registrations, Maintained by ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "Organization",
+                    "value": "Various Registries (Maintained by ARIN) (VR-ARIN)",
+                    "details_link": null
+                },
+                {
+                    "key": "RegDate",
+                    "value": "1993-05-01",
+                    "details_link": null
+                },
+                {
+                    "key": "Ref",
+                    "value": "https://rdap.arin.net/registry/ip/192.0.0.0",
+                    "details_link": "https://rdap.arin.net/registry/ip/192.0.0.0"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "NetRange",
+                    "value": "192.0.16.0 - 192.0.31.255",
+                    "details_link": null
+                },
+                {
+                    "key": "CIDR",
+                    "value": "192.0.16.0/20",
+                    "details_link": null
+                },
+                {
+                    "key": "NetName",
+                    "value": "RA-192-0-16",
+                    "details_link": null
+                },
+                {
+                    "key": "NetHandle",
+                    "value": "NET-192-0-16-0-2",
+                    "details_link": null
+                },
+                {
+                    "key": "Parent",
+                    "value": "SY-LA-2 (NET-192-0-16-0-1)",
+                    "details_link": null
+                },
+                {
+                    "key": "NetType",
+                    "value": "Reallocated",
+                    "details_link": null
+                },
+                {
+                    "key": "Organization",
+                    "value": "Internet Utilities NA LLC (DCL-577)",
+                    "details_link": null
+                },
+                {
+                    "key": "RegDate",
+                    "value": "2024-12-29",
+                    "details_link": null
+                },
+                {
+                    "key": "Ref",
+                    "value": "https://rdap.arin.net/registry/ip/192.0.16.0",
+                    "details_link": "https://rdap.arin.net/registry/ip/192.0.16.0"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "NetRange",
+                    "value": "192.0.16.0 - 192.0.31.255",
+                    "details_link": null
+                },
+                {
+                    "key": "CIDR",
+                    "value": "192.0.16.0/20",
+                    "details_link": null
+                },
+                {
+                    "key": "NetName",
+                    "value": "SY-LA-2",
+                    "details_link": null
+                },
+                {
+                    "key": "NetHandle",
+                    "value": "NET-192-0-16-0-1",
+                    "details_link": null
+                },
+                {
+                    "key": "Parent",
+                    "value": "NET192 (NET-192-0-0-0-0)",
+                    "details_link": null
+                },
+                {
+                    "key": "NetType",
+                    "value": "Direct Allocation",
+                    "details_link": null
+                },
+                {
+                    "key": "OriginAS",
+                    "value": "AS4436, AS3257, AS6939",
+                    "details_link": null
+                },
+                {
+                    "key": "Organization",
+                    "value": "SERVERYOU INC (SERVE-75)",
+                    "details_link": null
+                },
+                {
+                    "key": "RegDate",
+                    "value": "2012-12-14",
+                    "details_link": null
+                },
+                {
+                    "key": "Ref",
+                    "value": "https://rdap.arin.net/registry/ip/192.0.16.0",
+                    "details_link": "https://rdap.arin.net/registry/ip/192.0.16.0"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgAbuseHandle",
+                    "value": "ABUSE3272-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbuseName",
+                    "value": "Abuse Department",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbusePhone",
+                    "value": "+1-300-899-1233",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbuseEmail",
+                    "value": "abuse@serveryou.com",
+                    "details_link": "mailto:abuse@serveryou.com"
+                },
+                {
+                    "key": "OrgAbuseRef",
+                    "value": "https://rdap.arin.net/registry/entity/ABUSE3272-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/ABUSE3272-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgAbuseHandle",
+                    "value": "CKN23-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbuseName",
+                    "value": "No, Contact Known",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbusePhone",
+                    "value": "+1-800-555-1234",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbuseEmail",
+                    "value": "nobody@example.com",
+                    "details_link": "mailto:nobody@example.com"
+                },
+                {
+                    "key": "OrgAbuseRef",
+                    "value": "https://rdap.arin.net/registry/entity/CKN23-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/CKN23-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgAbuseHandle",
+                    "value": "IUA-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbuseName",
+                    "value": "Internet Utilities Abuse",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbusePhone",
+                    "value": "+1-650-934-1667",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgAbuseEmail",
+                    "value": "report@abuseradar.com",
+                    "details_link": "mailto:report@abuseradar.com"
+                },
+                {
+                    "key": "OrgAbuseRef",
+                    "value": "https://rdap.arin.net/registry/entity/IUA-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/IUA-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgName",
+                    "value": "Internet Utilities NA LLC",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgId",
+                    "value": "DCL-577",
+                    "details_link": null
+                },
+                {
+                    "key": "Address",
+                    "value": "2711 Centerville Road",
+                    "details_link": null
+                },
+                {
+                    "key": "City",
+                    "value": "Wilmington",
+                    "details_link": null
+                },
+                {
+                    "key": "StateProv",
+                    "value": "DE",
+                    "details_link": null
+                },
+                {
+                    "key": "PostalCode",
+                    "value": "19808",
+                    "details_link": null
+                },
+                {
+                    "key": "Country",
+                    "value": "US",
+                    "details_link": null
+                },
+                {
+                    "key": "RegDate",
+                    "value": "2015-11-18",
+                    "details_link": null
+                },
+                {
+                    "key": "Ref",
+                    "value": "https://rdap.arin.net/registry/entity/DCL-577",
+                    "details_link": "https://rdap.arin.net/registry/entity/DCL-577"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgName",
+                    "value": "SERVERYOU INC",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgId",
+                    "value": "SERVE-75",
+                    "details_link": null
+                },
+                {
+                    "key": "Address",
+                    "value": "38958 S Fremont BLVD",
+                    "details_link": null
+                },
+                {
+                    "key": "City",
+                    "value": "Fremont",
+                    "details_link": null
+                },
+                {
+                    "key": "StateProv",
+                    "value": "CA",
+                    "details_link": null
+                },
+                {
+                    "key": "PostalCode",
+                    "value": "94536",
+                    "details_link": null
+                },
+                {
+                    "key": "Country",
+                    "value": "US",
+                    "details_link": null
+                },
+                {
+                    "key": "RegDate",
+                    "value": "2012-04-18",
+                    "details_link": null
+                },
+                {
+                    "key": "Ref",
+                    "value": "https://rdap.arin.net/registry/entity/SERVE-75",
+                    "details_link": "https://rdap.arin.net/registry/entity/SERVE-75"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgName",
+                    "value": "Various Registries (Maintained by ARIN)",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgId",
+                    "value": "VR-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "Address",
+                    "value": "PO Box 232290",
+                    "details_link": null
+                },
+                {
+                    "key": "City",
+                    "value": "Centreville",
+                    "details_link": null
+                },
+                {
+                    "key": "StateProv",
+                    "value": "VA",
+                    "details_link": null
+                },
+                {
+                    "key": "PostalCode",
+                    "value": "20120",
+                    "details_link": null
+                },
+                {
+                    "key": "Country",
+                    "value": "US",
+                    "details_link": null
+                },
+                {
+                    "key": "RegDate",
+                    "value": "1993-05-01",
+                    "details_link": null
+                },
+                {
+                    "key": "Comment",
+                    "value": "Address space was assigned by the InterNIC regardless of",
+                    "details_link": null
+                },
+                {
+                    "key": "Comment",
+                    "value": "geographic region.  The registrations are now being maintained",
+                    "details_link": null
+                },
+                {
+                    "key": "Comment",
+                    "value": "by various registries, and the in-addr.arpa delegations are",
+                    "details_link": null
+                },
+                {
+                    "key": "Comment",
+                    "value": "being maintained by ARIN.",
+                    "details_link": null
+                },
+                {
+                    "key": "Ref",
+                    "value": "https://rdap.arin.net/registry/entity/VR-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/VR-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgRoutingHandle",
+                    "value": "IST36-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgRoutingName",
+                    "value": "IPXO Support Team",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgRoutingPhone",
+                    "value": "+1 (650) 564-3425",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgRoutingEmail",
+                    "value": "support@ipxo.com",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgRoutingRef",
+                    "value": "https://rdap.arin.net/registry/entity/IST36-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgTechHandle",
+                    "value": "CKN23-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechName",
+                    "value": "No, Contact Known",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechPhone",
+                    "value": "+1-800-555-1234",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechEmail",
+                    "value": "nobody@example.com",
+                    "details_link": "mailto:nobody@example.com"
+                },
+                {
+                    "key": "OrgTechRef",
+                    "value": "https://rdap.arin.net/registry/entity/CKN23-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/CKN23-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgTechHandle",
+                    "value": "IUS-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechName",
+                    "value": "Internet Utilities Support",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechPhone",
+                    "value": "+1-650-564-3425",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechEmail",
+                    "value": "support@netutils.io",
+                    "details_link": "mailto:support@netutils.io"
+                },
+                {
+                    "key": "OrgTechRef",
+                    "value": "https://rdap.arin.net/registry/entity/IUS-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/IUS-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ],
+            [
+                {
+                    "key": "OrgTechHandle",
+                    "value": "TECHD10-ARIN",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechName",
+                    "value": "Tech Department",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechPhone",
+                    "value": "+1-300-899-1233",
+                    "details_link": null
+                },
+                {
+                    "key": "OrgTechEmail",
+                    "value": "tech@serveryou.com",
+                    "details_link": "mailto:tech@serveryou.com"
+                },
+                {
+                    "key": "OrgTechRef",
+                    "value": "https://rdap.arin.net/registry/entity/TECHD10-ARIN",
+                    "details_link": "https://rdap.arin.net/registry/entity/TECHD10-ARIN"
+                },
+                {
+                    "key": "source",
+                    "value": "ARIN",
+                    "details_link": null
+                }
+            ]
+        ],
+        "irr_records": [
+            [
+                {
+                    "key": "route",
+                    "value": "192.0.16.0/20",
+                    "details_link": "https://stat.ripe.net/192.0.16.0/20"
+                },
+                {
+                    "key": "origin",
+                    "value": "834",
+                    "details_link": "https://stat.ripe.net/AS834"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "MAINT-AS834",
+                    "details_link": null
+                },
+                {
+                    "key": "descr",
+                    "value": "autogen",
+                    "details_link": null
+                },
+                {
+                    "key": "source",
+                    "value": "radb",
+                    "details_link": null
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-01-11T13:33:08Z",
+                    "details_link": null
+                }
+            ]
+        ],
+        "authorities": [
+            "arin"
+        ],
+        "resource": "192.0.20.0/23",
+        "query_time": "2025-06-11T16:10:00"
+    },
+    "query_id": "20250611161030-d290e1cc-de99-4e78-8908-801bc9fc8bbc",
+    "process_time": 385,
+    "server_id": "app171",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:10:30.391372"
+}

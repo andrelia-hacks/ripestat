@@ -1,0 +1,46 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "allocation-history",
+    "data_call_status": "supported",
+    "cached": true,
+    "data": {
+        "results": {
+            "IANA": [
+                {
+                    "resource": "140.0.0.0/8",
+                    "status": "Administered by ARIN, LEGACY",
+                    "timelines": [
+                        {
+                            "starttime": "2020-12-12T12:00:00+00:00",
+                            "endtime": "2025-03-26T00:00:00+00:00"
+                        }
+                    ]
+                }
+            ],
+            "RIPE NCC": [
+                {
+                    "resource": "140.78.0.0-140.78.255.255",
+                    "status": "ASSIGNED",
+                    "timelines": [
+                        {
+                            "starttime": "2020-12-12T12:00:00+00:00",
+                            "endtime": "2025-03-26T00:00:00+00:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        "resource": "140.78.0.0/16",
+        "query_starttime": "2020-12-12T12:00:00",
+        "query_endtime": "2025-03-26T00:00:00"
+    },
+    "query_id": "20250611155548-21a02cd3-d8b3-470c-98f9-ec7decc232b1",
+    "process_time": 3,
+    "server_id": "app179",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:55:48.210895"
+}

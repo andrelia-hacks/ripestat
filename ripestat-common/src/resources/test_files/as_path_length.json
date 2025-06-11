@@ -1,0 +1,418 @@
+{
+    "messages": [
+        [
+            "info",
+            "Query time has been set to latest time data is available for (2025-06-11 08:00 UTC)"
+        ]
+    ],
+    "see_also": [],
+    "version": "2.1",
+    "data_call_name": "as-path-length",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "stats": [
+            {
+                "number": 0,
+                "count": 300,
+                "location": "RIPE-NCC Multihop, Amsterdam, Netherlands",
+                "stripped": {
+                    "sum": 1076,
+                    "min": 1,
+                    "max": 6,
+                    "avg": 3.5866666666666664
+                },
+                "unstripped": {
+                    "sum": 1101,
+                    "min": 1,
+                    "max": 6,
+                    "avg": 3.67
+                }
+            },
+            {
+                "number": 1,
+                "count": 257,
+                "location": "LINX / LONAP, London, United Kingdom",
+                "stripped": {
+                    "sum": 828,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.2217898832684826
+                },
+                "unstripped": {
+                    "sum": 875,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.404669260700389
+                }
+            },
+            {
+                "number": 3,
+                "count": 291,
+                "location": "AMS-IX / NL-IX, Amsterdam, Netherlands",
+                "stripped": {
+                    "sum": 735,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 2.5257731958762886
+                },
+                "unstripped": {
+                    "sum": 756,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 2.597938144329897
+                }
+            },
+            {
+                "number": 4,
+                "count": 55,
+                "location": "CIXP, Geneva, Switzerland",
+                "stripped": {
+                    "sum": 164,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 2.981818181818182
+                },
+                "unstripped": {
+                    "sum": 164,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 2.981818181818182
+                }
+            },
+            {
+                "number": 5,
+                "count": 78,
+                "location": "VIX, Vienna, Austria",
+                "stripped": {
+                    "sum": 212,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 2.717948717948718
+                },
+                "unstripped": {
+                    "sum": 230,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 2.948717948717949
+                }
+            },
+            {
+                "number": 6,
+                "count": 35,
+                "location": "DIX-IE / JPIX, Tokyo, Japan",
+                "stripped": {
+                    "sum": 153,
+                    "min": 3,
+                    "max": 6,
+                    "avg": 4.371428571428571
+                },
+                "unstripped": {
+                    "sum": 153,
+                    "min": 3,
+                    "max": 6,
+                    "avg": 4.371428571428571
+                }
+            },
+            {
+                "number": 7,
+                "count": 64,
+                "location": "Netnod, Stockholm, Sweden",
+                "stripped": {
+                    "sum": 184,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 2.875
+                },
+                "unstripped": {
+                    "sum": 185,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 2.890625
+                }
+            },
+            {
+                "number": 10,
+                "count": 100,
+                "location": "MIX, Milan, Italy",
+                "stripped": {
+                    "sum": 295,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 2.95
+                },
+                "unstripped": {
+                    "sum": 295,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 2.95
+                }
+            },
+            {
+                "number": 11,
+                "count": 58,
+                "location": "NYIIX, New York City, New York, US",
+                "stripped": {
+                    "sum": 196,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.3793103448275863
+                },
+                "unstripped": {
+                    "sum": 196,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.3793103448275863
+                }
+            },
+            {
+                "number": 12,
+                "count": 260,
+                "location": "DE-CIX, Frankfurt, Germany",
+                "stripped": {
+                    "sum": 773,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 2.973076923076923
+                },
+                "unstripped": {
+                    "sum": 838,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 3.223076923076923
+                }
+            },
+            {
+                "number": 13,
+                "count": 36,
+                "location": "MSK-IX, Moscow, Russian Federation",
+                "stripped": {
+                    "sum": 108,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.0
+                },
+                "unstripped": {
+                    "sum": 108,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.0
+                }
+            },
+            {
+                "number": 14,
+                "count": 43,
+                "location": "PAIX, Palo Alto, California, US",
+                "stripped": {
+                    "sum": 133,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.0930232558139537
+                },
+                "unstripped": {
+                    "sum": 133,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.0930232558139537
+                }
+            },
+            {
+                "number": 15,
+                "count": 117,
+                "location": "PTTMetro, Sao Paulo, Brazil",
+                "stripped": {
+                    "sum": 438,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.7435897435897436
+                },
+                "unstripped": {
+                    "sum": 445,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 3.8034188034188032
+                }
+            },
+            {
+                "number": 16,
+                "count": 22,
+                "location": "NOTA, Miami, Florida, US",
+                "stripped": {
+                    "sum": 58,
+                    "min": 2,
+                    "max": 3,
+                    "avg": 2.6363636363636362
+                },
+                "unstripped": {
+                    "sum": 58,
+                    "min": 2,
+                    "max": 3,
+                    "avg": 2.6363636363636362
+                }
+            },
+            {
+                "number": 18,
+                "count": 7,
+                "location": "Catnix, Barcelona, Spain",
+                "stripped": {
+                    "sum": 21,
+                    "min": 3,
+                    "max": 3,
+                    "avg": 3.0
+                },
+                "unstripped": {
+                    "sum": 21,
+                    "min": 3,
+                    "max": 3,
+                    "avg": 3.0
+                }
+            },
+            {
+                "number": 19,
+                "count": 68,
+                "location": "NAP Africa JB, Johannesburg, South Africa",
+                "stripped": {
+                    "sum": 252,
+                    "min": 3,
+                    "max": 5,
+                    "avg": 3.7058823529411766
+                },
+                "unstripped": {
+                    "sum": 264,
+                    "min": 3,
+                    "max": 6,
+                    "avg": 3.8823529411764706
+                }
+            },
+            {
+                "number": 20,
+                "count": 175,
+                "location": "SwissIX, Zurich, Switzerland",
+                "stripped": {
+                    "sum": 526,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.005714285714286
+                },
+                "unstripped": {
+                    "sum": 532,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.04
+                }
+            },
+            {
+                "number": 21,
+                "count": 182,
+                "location": "France-IX, Paris, France",
+                "stripped": {
+                    "sum": 576,
+                    "min": 2,
+                    "max": 4,
+                    "avg": 3.1648351648351647
+                },
+                "unstripped": {
+                    "sum": 655,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.598901098901099
+                }
+            },
+            {
+                "number": 22,
+                "count": 34,
+                "location": "InterLAN, Bucharest, Romania",
+                "stripped": {
+                    "sum": 157,
+                    "min": 3,
+                    "max": 6,
+                    "avg": 4.617647058823529
+                },
+                "unstripped": {
+                    "sum": 176,
+                    "min": 3,
+                    "max": 7,
+                    "avg": 5.176470588235294
+                }
+            },
+            {
+                "number": 23,
+                "count": 56,
+                "location": "Equinix SG, Singapore, Singapore",
+                "stripped": {
+                    "sum": 190,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.392857142857143
+                },
+                "unstripped": {
+                    "sum": 190,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.392857142857143
+                }
+            },
+            {
+                "number": 24,
+                "count": 74,
+                "location": "LACNIC Multihop, Montevideo, Uruguay",
+                "stripped": {
+                    "sum": 294,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 3.972972972972973
+                },
+                "unstripped": {
+                    "sum": 307,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 4.148648648648648
+                }
+            },
+            {
+                "number": 25,
+                "count": 342,
+                "location": "RIPE-NCC Multihop, Amsterdam, Netherlands",
+                "stripped": {
+                    "sum": 1205,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 3.5233918128654973
+                },
+                "unstripped": {
+                    "sum": 1241,
+                    "min": 2,
+                    "max": 6,
+                    "avg": 3.628654970760234
+                }
+            },
+            {
+                "number": 26,
+                "count": 21,
+                "location": "UAE-IX, Dubai, UAE",
+                "stripped": {
+                    "sum": 73,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.4761904761904763
+                },
+                "unstripped": {
+                    "sum": 73,
+                    "min": 2,
+                    "max": 5,
+                    "avg": 3.4761904761904763
+                }
+            }
+        ],
+        "resource": "3333",
+        "query_time": "2025-06-11T08:00:00",
+        "sort_by": "number"
+    },
+    "query_id": "20250611155711-94e0fe4c-8dc2-4ad7-a03a-23fc61be2af2",
+    "process_time": 57,
+    "server_id": "app186",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:57:12.018149"
+}

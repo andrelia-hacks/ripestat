@@ -1,0 +1,25 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.2",
+    "data_call_name": "bgplay",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "resource": "140.78.0.0/16",
+        "query_starttime": "2020-12-21T07:00:00",
+        "query_endtime": "2020-12-21T12:00:00",
+        "initial_state": [],
+        "events": [],
+        "nodes": [],
+        "sources": [],
+        "targets": []
+    },
+    "query_id": "20250611155928-26150fa7-5389-482a-99ea-43c17dda185b",
+    "process_time": 52,
+    "server_id": "app172",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:59:28.368535"
+}

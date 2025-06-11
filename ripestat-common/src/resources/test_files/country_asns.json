@@ -1,0 +1,40 @@
+{
+    "messages": [
+        [
+            "info",
+            "Query time has been set to the latest time (2025-06-10 00:00 UTC) data is available for."
+        ]
+    ],
+    "see_also": [],
+    "version": "0.1",
+    "data_call_name": "country-asns",
+    "data_call_status": "supported",
+    "cached": true,
+    "data": {
+        "countries": [
+            {
+                "stats": {
+                    "registered": 1588,
+                    "routed": 1060
+                },
+                "resource": "nl"
+            }
+        ],
+        "resource": [
+            "nl"
+        ],
+        "query_time": "2025-06-10T00:00:00",
+        "lod": [
+            "0"
+        ],
+        "cache": null,
+        "latest_time": "2025-06-10T00:00:00"
+    },
+    "query_id": "20250611155939-75f782c7-2d7b-4767-af0f-d43e37e506f0",
+    "process_time": 27,
+    "server_id": "app193",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:59:39.064965"
+}

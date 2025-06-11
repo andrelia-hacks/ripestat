@@ -1,0 +1,21 @@
+{
+    "messages": [
+        [
+            "info",
+            "This data is currently unavailable due to maintenance. Please check official announcements for when it will be available again! https://stat.ripe.net/feedback"
+        ]
+    ],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "mlab-activity-count",
+    "data_call_status": "maintenance - this data call is in maintenance mode",
+    "cached": true,
+    "data": {},
+    "query_id": "20250611160340-ebe01468-159e-4dc4-952a-8e33603e579c",
+    "process_time": 1,
+    "server_id": "app162",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:03:40.118568"
+}

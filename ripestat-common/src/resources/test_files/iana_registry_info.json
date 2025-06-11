@@ -1,0 +1,41 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.1",
+    "data_call_name": "iana-registry-info",
+    "data_call_status": "supported",
+    "cached": true,
+    "data": {
+        "resources": [
+            {
+                "resource": "193.0.0.0/8",
+                "type_properties": [
+                    "ip",
+                    "v4",
+                    "prefix"
+                ],
+                "description": "RIPE NCC (Status: ALLOCATED)",
+                "details": {
+                    "Designation": "RIPE NCC",
+                    "Date": "1993-05",
+                    "WHOIS": "whois.ripe.net",
+                    "RDAP": "https://rdap.db.ripe.net/",
+                    "Status [1]": "ALLOCATED",
+                    "Note": ""
+                },
+                "source": "IANA IPv4 Address Space Registry",
+                "source_url": "http://www.iana.org/assignments/ipv4-address-space/ipv4-address-space.csv"
+            }
+        ],
+        "load_time": "2025-06-11T00:00:00",
+        "returned": 1,
+        "resource": "193.0.0.0/23"
+    },
+    "query_id": "20250611161150-019a7504-cd2d-4731-a5d8-a3fdfec57b31",
+    "process_time": 13,
+    "server_id": "app168",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:11:50.982632"
+}

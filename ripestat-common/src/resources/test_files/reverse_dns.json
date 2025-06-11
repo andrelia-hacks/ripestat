@@ -1,0 +1,521 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "reverse-dns",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "delegations": [
+            [
+                {
+                    "key": "domain",
+                    "value": "0.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2002-07-05T11:37:47Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T14:59:26Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "64884 13 2 6488cdb20f9b650143f278237412d04ab8b55cadc643b02cfbe76e1265831219"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "1.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2002-07-05T11:38:36Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T11:14:29Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "37942 13 2 6925160e6c959a04c222f707ce68f725c5a9f5f0199deeea117c3d0c645578d2"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "2.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "31669 13 2 b8329b23c618ae0ec5e4bdb20c64ad9a1c8da83c676407fb65f408c9e7a9ac02"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPE-NCC-MNT"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2002-07-05T11:39:53Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T14:59:26Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "3.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2002-07-05T11:40:32Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T14:59:26Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "13313 13 2 b1c7540194f560ed76b92a24d6762b7b8aac9e4560518ae038c38fc226eedcc3"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "4.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2004-01-06T17:07:05Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T14:59:26Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "2337 13 2 37dbc6ec5f70135b432bf339c2acbfa026acd115ae4f22657f7b678941198db4"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "5.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2004-01-08T14:14:54Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T14:59:26Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "12288 13 2 306bfd379d523ddb8de873eabdbe688433881ed05220cb757ec722542954ee53"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "6.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2004-01-06T17:07:07Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T15:02:41Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "4355 13 2 cd85980a6cf1436645672d7bd95adcf715acbb7fc03ca1cbbc749e1fa7bd3b7d"
+                }
+            ],
+            [
+                {
+                    "key": "domain",
+                    "value": "7.0.193.in-addr.arpa"
+                },
+                {
+                    "key": "descr",
+                    "value": "RIPE NCC Internal Use"
+                },
+                {
+                    "key": "admin-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "tech-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "zone-c",
+                    "value": "DNS74-RIPE"
+                },
+                {
+                    "key": "mnt-by",
+                    "value": "RIPENCC-DNS-MNT"
+                },
+                {
+                    "key": "created",
+                    "value": "2004-03-26T11:16:16Z"
+                },
+                {
+                    "key": "last-modified",
+                    "value": "2025-04-03T15:02:41Z"
+                },
+                {
+                    "key": "source",
+                    "value": "RIPE"
+                },
+                {
+                    "key": "nserver",
+                    "value": "manus.authdns.ripe.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.afrinic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns3.lacnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "ns4.apnic.net"
+                },
+                {
+                    "key": "nserver",
+                    "value": "rirns.arin.net"
+                },
+                {
+                    "key": "ds-rdata",
+                    "value": "42148 13 2 61c9c6a25d03a2b9cab138d00391cb3fda56bfb9126206ab6cfdb490f38a0f7b"
+                }
+            ]
+        ],
+        "resource": "193.0.0.0/21",
+        "query_time": "2025-06-11T16:05:00"
+    },
+    "query_id": "20250611160539-f02c5947-a256-4b86-8d57-49e26cf9fcbe",
+    "process_time": 13,
+    "server_id": "app197",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:05:39.399085"
+}

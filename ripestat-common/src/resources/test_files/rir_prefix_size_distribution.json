@@ -1,0 +1,546 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.6",
+    "data_call_name": "rir-prefix-size-distribution",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "resource": "140.0.0.0/8",
+        "query_time": "2025-06-10T00:00:00",
+        "rirs": [
+            {
+                "rir": "RIPE NCC",
+                "distribution": [
+                    {
+                        "prefix_size": 8,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 9,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 10,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 11,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 12,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 13,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 14,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 15,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 16,
+                        "count": 14
+                    },
+                    {
+                        "prefix_size": 17,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 18,
+                        "count": 2
+                    },
+                    {
+                        "prefix_size": 19,
+                        "count": 5
+                    },
+                    {
+                        "prefix_size": 20,
+                        "count": 6
+                    },
+                    {
+                        "prefix_size": 21,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 22,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 23,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 24,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 25,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 26,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 27,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 28,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 29,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 30,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 31,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 32,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "rir": "ARIN",
+                "distribution": [
+                    {
+                        "prefix_size": 8,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 9,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 10,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 11,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 12,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 13,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 14,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 15,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 16,
+                        "count": 166
+                    },
+                    {
+                        "prefix_size": 17,
+                        "count": 7
+                    },
+                    {
+                        "prefix_size": 18,
+                        "count": 7
+                    },
+                    {
+                        "prefix_size": 19,
+                        "count": 10
+                    },
+                    {
+                        "prefix_size": 20,
+                        "count": 19
+                    },
+                    {
+                        "prefix_size": 21,
+                        "count": 8
+                    },
+                    {
+                        "prefix_size": 22,
+                        "count": 55
+                    },
+                    {
+                        "prefix_size": 23,
+                        "count": 9
+                    },
+                    {
+                        "prefix_size": 24,
+                        "count": 16
+                    },
+                    {
+                        "prefix_size": 25,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 26,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 27,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 28,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 29,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 30,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 31,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 32,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "rir": "AFRINIC",
+                "distribution": [
+                    {
+                        "prefix_size": 8,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 9,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 10,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 11,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 12,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 13,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 14,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 15,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 16,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 17,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 18,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 19,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 20,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 21,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 22,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 23,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 24,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 25,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 26,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 27,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 28,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 29,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 30,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 31,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 32,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "rir": "LACNIC",
+                "distribution": [
+                    {
+                        "prefix_size": 8,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 9,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 10,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 11,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 12,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 13,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 14,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 15,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 16,
+                        "count": 2
+                    },
+                    {
+                        "prefix_size": 17,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 18,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 19,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 20,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 21,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 22,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 23,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 24,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 25,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 26,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 27,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 28,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 29,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 30,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 31,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 32,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "rir": "APNIC",
+                "distribution": [
+                    {
+                        "prefix_size": 8,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 9,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 10,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 11,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 12,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 13,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 14,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 15,
+                        "count": 2
+                    },
+                    {
+                        "prefix_size": 16,
+                        "count": 39
+                    },
+                    {
+                        "prefix_size": 17,
+                        "count": 3
+                    },
+                    {
+                        "prefix_size": 18,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 19,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 20,
+                        "count": 2
+                    },
+                    {
+                        "prefix_size": 21,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 22,
+                        "count": 1
+                    },
+                    {
+                        "prefix_size": 23,
+                        "count": 2
+                    },
+                    {
+                        "prefix_size": 24,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 25,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 26,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 27,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 28,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 29,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 30,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 31,
+                        "count": 0
+                    },
+                    {
+                        "prefix_size": 32,
+                        "count": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "query_id": "20250611160644-1d72584d-baf1-4171-b880-54907635bc70",
+    "process_time": 66,
+    "server_id": "app194",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:06:44.992050"
+}

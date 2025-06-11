@@ -1,0 +1,33 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.2",
+    "data_call_name": "related-prefixes",
+    "data_call_status": "supported",
+    "cached": true,
+    "data": {
+        "resource": "140.78.0.0/16",
+        "prefixes": [
+            {
+                "prefix": "140.77.0.0/16",
+                "origin_asn": "1945",
+                "asn_name": "FR-LYRES Lyon Recherche et Enseignement Superieur LyRES, EU",
+                "relationship": "Adjacency - Left"
+            },
+            {
+                "prefix": "140.79.0.0/16",
+                "origin_asn": "6262",
+                "asn_name": "CSIRO Commonwealth Scientific and Industrial, AU",
+                "relationship": "Adjacency - Right"
+            }
+        ],
+        "query_time": "2025-03-26T11:21:00"
+    },
+    "query_id": "20250611160524-960f0c55-63aa-4b8c-b8f6-aafc0c12da03",
+    "process_time": 3,
+    "server_id": "app194",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:05:24.983691"
+}

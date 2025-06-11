@@ -1,0 +1,72 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.3",
+    "data_call_name": "reverse-dns-consistency",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "prefixes": {
+            "ipv4": {
+                "193.0.0.0/21": {
+                    "complete": true,
+                    "domains": [
+                        {
+                            "domain": "0.0.193.in-addr.arpa",
+                            "prefix": "193.0.0.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "1.0.193.in-addr.arpa",
+                            "prefix": "193.0.1.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "2.0.193.in-addr.arpa",
+                            "prefix": "193.0.2.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "3.0.193.in-addr.arpa",
+                            "prefix": "193.0.3.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "4.0.193.in-addr.arpa",
+                            "prefix": "193.0.4.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "5.0.193.in-addr.arpa",
+                            "prefix": "193.0.5.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "6.0.193.in-addr.arpa",
+                            "prefix": "193.0.6.0/24",
+                            "found": true
+                        },
+                        {
+                            "domain": "7.0.193.in-addr.arpa",
+                            "prefix": "193.0.7.0/24",
+                            "found": true
+                        }
+                    ]
+                }
+            },
+            "ipv6": {}
+        },
+        "query_time": "2025-06-11T16:05:00",
+        "resource": "193.0.0.0/21",
+        "source": "input",
+        "ipv4": true,
+        "ipv6": true
+    },
+    "query_id": "20250611160550-b9192856-cc0d-42e5-a4d3-26b586686565",
+    "process_time": 10,
+    "server_id": "app166",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:05:50.369677"
+}

@@ -1,0 +1,36 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.7",
+    "data_call_name": "prefix-routing-consistency",
+    "data_call_status": "supported - based on version 1.1",
+    "cached": false,
+    "data": {
+        "resource": "193.0.20.0/24",
+        "routes": [
+            {
+                "in_bgp": true,
+                "in_whois": true,
+                "prefix": "193.0.20.0/23",
+                "origin": 3333,
+                "irr_sources": [
+                    "RIPE"
+                ],
+                "asn_name": "RIPE-NCC-AS - Reseaux IP Europeens Network Coordination Centre (RIPE NCC)"
+            }
+        ],
+        "parameters": {
+            "resource": "193.0.20.0/24",
+            "data_overload_limit": ""
+        },
+        "query_starttime": "2025-06-11T08:00:00",
+        "query_endtime": "2025-06-11T08:00:00"
+    },
+    "query_id": "20250611160440-302d4a88-2ad1-4b61-af61-3dce9d177ee8",
+    "process_time": 75,
+    "server_id": "app183",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:04:40.793420"
+}

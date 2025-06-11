@@ -1,0 +1,51 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.1",
+    "data_call_name": "ris-peer-count",
+    "data_call_status": "supported",
+    "cached": true,
+    "data": {
+        "starttime": "2025-06-11T08:00:00",
+        "endtime": "2025-06-11T08:00:00",
+        "peer_count": {
+            "v4": {
+                "total": [
+                    {
+                        "timestamp": "2025-06-11T08:00:00",
+                        "count": 810
+                    }
+                ],
+                "full_feed": [
+                    {
+                        "timestamp": "2025-06-11T08:00:00",
+                        "count": 349
+                    }
+                ]
+            },
+            "v6": {
+                "total": [
+                    {
+                        "timestamp": "2025-06-11T08:00:00",
+                        "count": 671
+                    }
+                ],
+                "full_feed": [
+                    {
+                        "timestamp": "2025-06-11T08:00:00",
+                        "count": 393
+                    }
+                ]
+            }
+        },
+        "v4_full_prefix_threshold": 600000,
+        "v6_full_prefix_threshold": 35000
+    },
+    "query_id": "20250611160759-b579c7f1-d0ef-40a2-aeb2-588bcf73a6fc",
+    "process_time": 3,
+    "server_id": "app188",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:07:59.797053"
+}

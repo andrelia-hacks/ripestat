@@ -1,0 +1,72 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "3.2",
+    "data_call_name": "asn-neighbours",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "resource": "12386",
+        "query_starttime": "2020-12-01T08:00:00",
+        "query_endtime": "2020-12-01T08:00:00",
+        "latest_time": "2025-06-11T00:00:00",
+        "earliest_time": "2018-06-02T00:00:00",
+        "neighbour_counts": {
+            "left": 3,
+            "right": 3,
+            "unique": 4,
+            "uncertain": 0
+        },
+        "neighbours": [
+            {
+                "asn": 12479,
+                "type": "left",
+                "power": 941,
+                "v4_peers": 8032,
+                "v6_peers": 0
+            },
+            {
+                "asn": 25259,
+                "type": "left",
+                "power": 5,
+                "v4_peers": 5,
+                "v6_peers": 0
+            },
+            {
+                "asn": 8220,
+                "type": "left",
+                "power": 14,
+                "v4_peers": 217,
+                "v6_peers": 0
+            },
+            {
+                "asn": 13041,
+                "type": "right",
+                "power": 121,
+                "v4_peers": 136,
+                "v6_peers": 0
+            },
+            {
+                "asn": 25259,
+                "type": "right",
+                "power": 511,
+                "v4_peers": 1851,
+                "v6_peers": 0
+            },
+            {
+                "asn": 8220,
+                "type": "right",
+                "power": 5,
+                "v4_peers": 5,
+                "v6_peers": 0
+            }
+        ]
+    },
+    "query_id": "20250611155734-e3930f2f-a287-4457-bb8e-63128923870c",
+    "process_time": 36,
+    "server_id": "app193",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:57:34.638525"
+}

@@ -1,0 +1,151 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "searchcomplete",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "categories": [
+            {
+                "category": "ASNs",
+                "suggestions": [
+                    {
+                        "label": "AS2121",
+                        "value": "AS2121",
+                        "description": "RIPE-MEETING-AS, NL"
+                    },
+                    {
+                        "label": "AS3333",
+                        "value": "AS3333",
+                        "description": "RIPE-NCC-AS Reseaux IP Europeens Network Coordination Centre RIPE NCC, NL"
+                    },
+                    {
+                        "label": "AS12654",
+                        "value": "AS12654",
+                        "description": "RIPE-NCC-RIS-AS Reseaux IP Europeens Network Coordination Centre RIPE NCC, NL"
+                    },
+                    {
+                        "label": "AS34964",
+                        "value": "AS34964",
+                        "description": "RIPE-AT-AS, AT"
+                    },
+                    {
+                        "label": "AS47311",
+                        "value": "AS47311",
+                        "description": "RIPE-ATHARVA-AS-ID PT Atharva Telematika Persada, ID"
+                    },
+                    {
+                        "label": "AS196615",
+                        "value": "AS196615",
+                        "description": "RIPE-NCC-RIS-4BYTE-AS, NL"
+                    },
+                    {
+                        "label": "AS197000",
+                        "value": "AS197000",
+                        "description": "RIPE-NCC-AUTHDNS-AS Reseaux IP Europeens Network Coordination Centre RIPE NCC, NL"
+                    },
+                    {
+                        "label": "AS201965",
+                        "value": "AS201965",
+                        "description": "RIPE-NCC-DR-AS, NL"
+                    },
+                    {
+                        "label": "AS210537",
+                        "value": "AS210537",
+                        "description": "RIPE-PEDJOEANG-AS-, ID"
+                    }
+                ]
+            },
+            {
+                "category": "Domains",
+                "suggestions": [
+                    {
+                        "value": "ripe.net",
+                        "label": "ripe.net",
+                        "description": "ripe.net ranks #24940 on Alexa.com"
+                    },
+                    {
+                        "value": "riperam.org",
+                        "label": "riperam.org",
+                        "description": "riperam.org ranks #33553 on Alexa.com"
+                    },
+                    {
+                        "value": "ripemedia.com",
+                        "label": "ripemedia.com",
+                        "description": "ripemedia.com ranks #194692 on Alexa.com"
+                    },
+                    {
+                        "value": "ripemom.com",
+                        "label": "ripemom.com",
+                        "description": "ripemom.com ranks #311236 on Alexa.com"
+                    },
+                    {
+                        "value": "ripenapps.com",
+                        "label": "ripenapps.com",
+                        "description": "ripenapps.com ranks #560649 on Alexa.com"
+                    },
+                    {
+                        "value": "ripetizioni.it",
+                        "label": "ripetizioni.it",
+                        "description": "ripetizioni.it ranks #560650 on Alexa.com"
+                    },
+                    {
+                        "value": "ripeglobal.com",
+                        "label": "ripeglobal.com",
+                        "description": "ripeglobal.com ranks #564831 on Alexa.com"
+                    },
+                    {
+                        "value": "ripeinsurance.co.uk",
+                        "label": "ripeinsurance.co.uk",
+                        "description": "ripeinsurance.co.uk ranks #853196 on Alexa.com"
+                    }
+                ]
+            },
+            {
+                "category": "Site Navigation",
+                "suggestions": [
+                    {
+                        "label": "RIPEstat Home",
+                        "value": "RIPEstat Home",
+                        "description": "Go to RIPEstat Home",
+                        "link": "/"
+                    },
+                    {
+                        "label": "About RIPEstat",
+                        "value": "About RIPEstat",
+                        "description": "Go to About RIPEstat",
+                        "link": "/about/"
+                    }
+                ]
+            },
+            {
+                "category": "Special",
+                "suggestions": [
+                    {
+                        "label": "RIPE Atlas Measurement Targets",
+                        "link": "/widget/atlas-targets",
+                        "description": "Go to the RIPE Atlas Measurement Targets widget",
+                        "value": "Go to RIPE Atlas Measurement Targets"
+                    },
+                    {
+                        "label": "RIPE Atlas Probes",
+                        "link": "/widget/atlas-probes",
+                        "description": "Go to the RIPE Atlas Probes widget",
+                        "value": "Go to RIPE Atlas Probes"
+                    }
+                ]
+            }
+        ],
+        "query_term": "RIPE",
+        "limit": 50,
+        "query_time": "2025-06-11T16:09:00"
+    },
+    "query_id": "20250611160942-075fd53e-e932-4e26-9487-2f6e1163f375",
+    "process_time": 49,
+    "server_id": "app187",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:09:42.323279"
+}

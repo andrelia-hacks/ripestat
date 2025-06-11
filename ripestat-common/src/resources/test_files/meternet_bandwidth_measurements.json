@@ -1,0 +1,34 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.1",
+    "data_call_name": "meternet-bandwidth-measurements",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "measurements": [
+            {
+                "prefix": "140.78.181.0/24",
+                "date": "2025-06-04T15:08:58",
+                "down": 149774,
+                "up": 108728
+            }
+        ],
+        "statistics": {
+            "measurements": 1
+        },
+        "resource": "140.78.0.0/16",
+        "starttime": "2025-05-12T14:03:19",
+        "endtime": "2025-06-11T14:03:19",
+        "cache": null,
+        "latest_time": "2025-06-11T14:03:19",
+        "earliest_time": "2008-06-05T19:27:00"
+    },
+    "query_id": "20250611160327-3c1e0446-5d2e-474a-a2de-bf7d87466c10",
+    "process_time": 28,
+    "server_id": "app195",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:03:27.271293"
+}

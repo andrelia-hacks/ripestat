@@ -1,0 +1,127 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "maxmind-geo-lite-announced-by-as",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "located_resources": [
+            {
+                "resource": "193.0.0.0/21",
+                "locations": [
+                    {
+                        "country": "NL",
+                        "city": "",
+                        "resources": [
+                            "193.0.0.0/21"
+                        ],
+                        "latitude": 52.3824,
+                        "longitude": 4.8995,
+                        "covered_percentage": 44.44
+                    }
+                ],
+                "unknown_percentage": 55.56
+            },
+            {
+                "resource": "193.0.10.0/23",
+                "locations": [
+                    {
+                        "country": "NL",
+                        "city": "",
+                        "resources": [
+                            "193.0.10.0/23"
+                        ],
+                        "latitude": 52.3824,
+                        "longitude": 4.8995,
+                        "covered_percentage": 11.11
+                    }
+                ],
+                "unknown_percentage": 88.89
+            },
+            {
+                "resource": "193.0.12.0/23",
+                "locations": [
+                    {
+                        "country": "NL",
+                        "city": "",
+                        "resources": [
+                            "193.0.12.0/23"
+                        ],
+                        "latitude": 52.3824,
+                        "longitude": 4.8995,
+                        "covered_percentage": 11.11
+                    }
+                ],
+                "unknown_percentage": 88.89
+            },
+            {
+                "resource": "193.0.18.0/23",
+                "locations": [
+                    {
+                        "country": "NL",
+                        "city": "",
+                        "resources": [
+                            "193.0.18.0/23"
+                        ],
+                        "latitude": 52.3824,
+                        "longitude": 4.8995,
+                        "covered_percentage": 11.11
+                    }
+                ],
+                "unknown_percentage": 88.89
+            },
+            {
+                "resource": "193.0.20.0/22",
+                "locations": [
+                    {
+                        "country": "NL",
+                        "city": "",
+                        "resources": [
+                            "193.0.20.0/22"
+                        ],
+                        "latitude": 52.3824,
+                        "longitude": 4.8995,
+                        "covered_percentage": 22.22
+                    }
+                ],
+                "unknown_percentage": 77.78
+            },
+            {
+                "resource": "2001:67c:2e8::/48",
+                "locations": [
+                    {
+                        "country": "NL",
+                        "city": "Amsterdam",
+                        "resources": [
+                            "2001:67c:2e8::/48"
+                        ],
+                        "latitude": 52.3759,
+                        "longitude": 4.8975,
+                        "covered_percentage": 100.0
+                    }
+                ],
+                "unknown_percentage": 0
+            }
+        ],
+        "unknown_percentage": {
+            "v4": 0.0,
+            "v6": 0.0
+        },
+        "result_time": "2025-06-10T20:45:38",
+        "latest_time": "2025-06-10T20:45:38",
+        "earliest_time": "2025-06-10T20:45:38",
+        "parameters": {
+            "resource": "3333",
+            "resolution": "raw",
+            "cache": null
+        }
+    },
+    "query_id": "20250611160315-da69b07d-0187-44c6-964c-3a0f5d35911c",
+    "process_time": 31,
+    "server_id": "app171",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:03:15.252180"
+}

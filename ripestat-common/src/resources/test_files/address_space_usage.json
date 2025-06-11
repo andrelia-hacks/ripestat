@@ -1,0 +1,41 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "0.4",
+    "data_call_name": "address-space-usage",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "query_time": "2025-06-10T00:00:00",
+        "resource": "193.0.0.0/23",
+        "assignments": [
+            {
+                "address_range": "193.0.0.0/21",
+                "asn_name": "RIPE-NCC",
+                "status": "ASSIGNED PA",
+                "parent_allocation": "193.0.0.0-193.0.23.255"
+            }
+        ],
+        "allocations": [
+            {
+                "allocation": "193.0.0.0-193.0.23.255",
+                "asn_name": "NL-RIPENCC-OPS-990305",
+                "status": "ALLOCATED PA",
+                "assignments": 1
+            }
+        ],
+        "ip_stats": [
+            {
+                "status": "ASSIGNED PA",
+                "ips": 2048
+            }
+        ]
+    },
+    "query_id": "20250611155519-f4aead0a-f12e-4fab-82c2-4620d5fbaeb4",
+    "process_time": 56,
+    "server_id": "app168",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:55:19.480948"
+}

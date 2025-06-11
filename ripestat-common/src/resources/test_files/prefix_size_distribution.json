@@ -1,0 +1,40 @@
+{
+    "messages": [
+        [
+            "info",
+            "Results exclude routes with very low visibility (less than 10 RIS full-feed peers seeing)."
+        ]
+    ],
+    "see_also": [],
+    "version": "2.2",
+    "data_call_name": "prefix-size-distribution",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "resource": "3333",
+        "query_time": "2025-06-11T08:00:00",
+        "ipv4": [
+            {
+                "size": 23,
+                "count": 5
+            },
+            {
+                "size": 21,
+                "count": 1
+            }
+        ],
+        "ipv6": [
+            {
+                "size": 48,
+                "count": 1
+            }
+        ]
+    },
+    "query_id": "20250611160452-1482c52b-8178-4632-be2c-82091e152ab7",
+    "process_time": 16,
+    "server_id": "app170",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:04:52.934215"
+}

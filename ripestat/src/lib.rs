@@ -1,11 +1,11 @@
 use thiserror::Error;
 
-pub mod client;
+pub mod resources;
 
 
 /// Error returned by RIPEstat client functions and methods.
 #[derive(Error, Debug)]
-pub enum RipestatClientError {
+pub enum RipeStatClientError {
     #[error(transparent)]
     Client(#[from] reqwest::Error),
 }

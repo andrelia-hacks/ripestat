@@ -1,0 +1,21 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.1",
+    "data_call_name": "network-info",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "asns": [
+            "1205"
+        ],
+        "prefix": "140.78.0.0/16"
+    },
+    "query_id": "20250611160410-cfcaf7ba-9370-46fc-8b38-3c82d5737091",
+    "process_time": 4,
+    "server_id": "app171",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:04:10.451006"
+}

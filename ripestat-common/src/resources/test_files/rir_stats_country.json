@@ -1,0 +1,31 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "rir-stats-country",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "located_resources": [
+            {
+                "resource": "2001:67c:2e8::/48",
+                "location": "NL"
+            }
+        ],
+        "result_time": "2025-06-10T00:00:00",
+        "parameters": {
+            "resource": "2001:67c:2e8::/48",
+            "query_time": "2025-06-10T00:00:00",
+            "cache": null
+        },
+        "earliest_time": "2005-02-18T00:00:00",
+        "latest_time": "2025-06-10T00:00:00"
+    },
+    "query_id": "20250611160654-e33b196f-5349-4272-93c8-05a8d4948a96",
+    "process_time": 16,
+    "server_id": "app167",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:06:54.371730"
+}

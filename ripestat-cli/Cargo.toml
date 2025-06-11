@@ -9,6 +9,7 @@ license.workspace = true
 ripestat = { version = "0.0.1", path = "../ripestat" }
 ripestat-common = { version = "0.0.1", path = "../ripestat-common" }
 
+serde_json.workspace = true
 thiserror.workspace = true
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 

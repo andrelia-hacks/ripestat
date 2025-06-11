@@ -1,0 +1,92 @@
+{
+    "messages": [
+        [
+            "info",
+            "Results exclude routes with very low visibility (less than 10 RIS full-feed peers seeing)."
+        ]
+    ],
+    "see_also": [],
+    "version": "1.2",
+    "data_call_name": "announced-prefixes",
+    "data_call_status": "supported",
+    "cached": true,
+    "data": {
+        "prefixes": [
+            {
+                "prefix": "2001:67c:2e8::/48",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            },
+            {
+                "prefix": "193.0.22.0/23",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            },
+            {
+                "prefix": "193.0.12.0/23",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            },
+            {
+                "prefix": "193.0.0.0/21",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            },
+            {
+                "prefix": "193.0.18.0/23",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            },
+            {
+                "prefix": "193.0.10.0/23",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            },
+            {
+                "prefix": "193.0.20.0/23",
+                "timelines": [
+                    {
+                        "starttime": "2020-12-12T16:00:00",
+                        "endtime": "2025-06-11T08:00:00"
+                    }
+                ]
+            }
+        ],
+        "query_starttime": "2020-12-12T12:00:00",
+        "query_endtime": "2025-06-11T08:00:00",
+        "resource": "3333",
+        "latest_time": "2025-06-11T08:00:00",
+        "earliest_time": "2000-08-01T00:00:00"
+    },
+    "query_id": "20250611155642-86f2236a-4cb8-4e1f-b373-a64a21e06cf5",
+    "process_time": 2,
+    "server_id": "app187",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T15:56:42.142384"
+}

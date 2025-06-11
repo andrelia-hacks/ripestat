@@ -1,0 +1,54 @@
+{
+    "messages": [],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "dns-chain",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "query_time": "2025-06-11T16:02:00",
+        "resource": "www.ripe.net",
+        "forward_nodes": {
+            "www.ripe.net": [
+                "www.ripe.net.cdn.cloudflare.net"
+            ],
+            "www.ripe.net.cdn.cloudflare.net": [
+                "104.18.5.245",
+                "104.18.4.245",
+                "2606:4700::6812:4f5",
+                "2606:4700::6812:5f5"
+            ]
+        },
+        "reverse_nodes": {
+            "104.18.5.245": [],
+            "104.18.4.245": [],
+            "2606:4700::6812:4f5": [],
+            "2606:4700::6812:5f5": []
+        },
+        "authoritative_nameservers": [
+            "ns4.cloudflare.net",
+            "rirns.arin.net",
+            "ns5.cloudflare.net",
+            "ns3.cloudflare.net",
+            "manus.authdns.ripe.net",
+            "ns1.cloudflare.net",
+            "ns3.lacnic.net",
+            "ns3.afrinic.net",
+            "ns4.apnic.net",
+            "ns2.cloudflare.net"
+        ],
+        "nameservers": [
+            "193.0.19.102",
+            "2001:67c:2e8:11::c100:1366",
+            "2001:67c:2e8:11::c100:1365",
+            "193.0.19.101"
+        ]
+    },
+    "query_id": "20250611160210-b1280907-5589-4cf8-9f75-2a3e4b387b8e",
+    "process_time": 76,
+    "server_id": "app170",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:02:10.719570"
+}

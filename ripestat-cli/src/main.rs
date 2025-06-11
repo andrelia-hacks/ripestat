@@ -1,11 +1,16 @@
-use ripestat::{client::request::get_as_overview, RipestatClientError};
-use ripestat_common::response::as_overview::AsOverview;
+use ripestat::{
+    resources::abuse_contact_finder::abuse_contact_finder,
+    RipeStatClientError
+};
+use ripestat_common::{AbuseContactFinderRequest,RipeStatResponse};
 
 #[tokio::main]
-async fn main() -> Result<(), RipestatClientError> {
-    let asn: String = "3333".to_owned();
-    let as_overview: AsOverview = get_as_overview(asn).await?;
-    println!("{:#?}", as_overview);
+async fn main() -> Result<(), RipeStatClientError> {
+    let request: AbuseContactFinderRequest = AbuseContactFinderRequest {
+        resource: "3333".to_owned(),
+    };
+    let ripe_stat_response: RipeStatResponse = abuse_contact_finder(request).await?;
+    println!("{:#?}", ripe_stat_response);
 
     Ok(())
 }

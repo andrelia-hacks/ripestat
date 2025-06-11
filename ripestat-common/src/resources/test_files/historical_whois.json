@@ -1,0 +1,135 @@
+{
+    "messages": [
+        [
+            "warning",
+            "The RIPE DB reported that 'inetnum 193.0.20.0 - 193.0.20.255' could not be found."
+        ]
+    ],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "historical-whois",
+    "data_call_status": "supported",
+    "cached": false,
+    "data": {
+        "terms_and_conditions": "",
+        "num_versions": 0,
+        "resource": "193.0.20.0/24",
+        "versions": [],
+        "database": "RIPE",
+        "objects": [],
+        "referencing": [],
+        "referenced_by": {},
+        "access": "standard",
+        "suggestions": [
+            {
+                "type": "inetnum",
+                "key": "193.0.18.0 - 193.0.21.255",
+                "attributes": [
+                    {
+                        "attribute": "inetnum",
+                        "value": "193.0.18.0 - 193.0.21.255"
+                    },
+                    {
+                        "attribute": "netname",
+                        "value": "RIPE-NCC"
+                    },
+                    {
+                        "attribute": "descr",
+                        "value": "RIPE Network Coordination Centre"
+                    },
+                    {
+                        "attribute": "descr",
+                        "value": "Amsterdam, Netherlands"
+                    },
+                    {
+                        "attribute": "remarks",
+                        "value": "Used for RIPE NCC infrastructure."
+                    },
+                    {
+                        "attribute": "country",
+                        "value": "NL"
+                    },
+                    {
+                        "attribute": "admin-c",
+                        "value": "BRD-RIPE"
+                    },
+                    {
+                        "attribute": "tech-c",
+                        "value": "OPS4-RIPE"
+                    },
+                    {
+                        "attribute": "status",
+                        "value": "ASSIGNED PA"
+                    },
+                    {
+                        "attribute": "mnt-by",
+                        "value": "RIPE-NCC-MNT"
+                    },
+                    {
+                        "attribute": "created",
+                        "value": "2018-06-07T13:13:16Z"
+                    },
+                    {
+                        "attribute": "last-modified",
+                        "value": "2018-06-07T13:13:16Z"
+                    },
+                    {
+                        "attribute": "source",
+                        "value": "RIPE"
+                    }
+                ],
+                "from_time": null,
+                "version": "",
+                "latest": true,
+                "deleted": false
+            },
+            {
+                "type": "route",
+                "key": "193.0.20.0/23|AS3333",
+                "attributes": [
+                    {
+                        "attribute": "route",
+                        "value": "193.0.20.0/23"
+                    },
+                    {
+                        "attribute": "descr",
+                        "value": "RIPE-NCC"
+                    },
+                    {
+                        "attribute": "origin",
+                        "value": "AS3333"
+                    },
+                    {
+                        "attribute": "mnt-by",
+                        "value": "RIPE-NCC-MNT"
+                    },
+                    {
+                        "attribute": "created",
+                        "value": "2008-12-19T16:57:56Z"
+                    },
+                    {
+                        "attribute": "last-modified",
+                        "value": "2008-12-19T16:57:56Z"
+                    },
+                    {
+                        "attribute": "source",
+                        "value": "RIPE"
+                    }
+                ],
+                "from_time": null,
+                "version": "",
+                "latest": true,
+                "deleted": false
+            }
+        ],
+        "version": "2025-06-11T16:02:00",
+        "cache": null
+    },
+    "query_id": "20250611160232-d2f3d353-9ab2-42c8-8479-1462075493e3",
+    "process_time": 42,
+    "server_id": "app180",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:02:32.839435"
+}

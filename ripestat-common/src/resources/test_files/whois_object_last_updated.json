@@ -1,0 +1,21 @@
+{
+    "messages": [
+        [
+            "info",
+            "This data is currently unavailable due to maintenance. Please check official announcements for when it will be available again! https://stat.ripe.net/feedback"
+        ]
+    ],
+    "see_also": [],
+    "version": "1.0",
+    "data_call_name": "whois-object-last-updated",
+    "data_call_status": "maintenance - this data call is in maintenance mode",
+    "cached": true,
+    "data": {},
+    "query_id": "20250611161042-03ef0746-b0ac-4a50-8d74-ca465c5f0877",
+    "process_time": 3,
+    "server_id": "app186",
+    "build_version": "main-2025.05.26",
+    "status": "ok",
+    "status_code": 200,
+    "time": "2025-06-11T16:10:42.470665"
+}
