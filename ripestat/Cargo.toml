@@ -8,7 +8,7 @@ repository.workspace = true
 
 [dependencies]
 
-ripestat-common = { version = "0.0.1", path = "../ripestat-common" }
+ripestat-common = { version = "0.0.2", path = "../ripestat-common" }
 
 chrono.workspace = true
 reqwest.workspace = true
