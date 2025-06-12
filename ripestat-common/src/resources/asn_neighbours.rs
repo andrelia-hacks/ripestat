@@ -30,7 +30,7 @@ pub struct NeighbourCounts {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Neighbour {
-    pub asn: String,
+    pub asn: i64,
     pub type_field: String,
     pub power: i64,
     pub v4_peers: i64,

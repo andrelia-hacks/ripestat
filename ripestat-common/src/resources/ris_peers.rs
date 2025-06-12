@@ -16,7 +16,7 @@ pub struct RisPeersResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RisPeersPeer {
-    pub asn: String,
+    pub asn: i64,
     pub ip: String,
     pub v4_prefix_count: i64,
     pub v6_prefix_count: i64,

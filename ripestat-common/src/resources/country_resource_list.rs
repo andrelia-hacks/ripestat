@@ -18,7 +18,7 @@ pub struct CountryResourceListResponse {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 
 pub struct Resources {
-    pub asn: Vec<String>,
+    pub asn: Vec<i64>,
     pub ipv4: Vec<String>,
     pub ipv6: Vec<String>,
 }

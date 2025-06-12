@@ -15,7 +15,7 @@ pub struct RelatedPrefixesResponse {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RelatedPrefix {
     pub prefix: String,
-    pub origin_asn: String,
+    pub origin_asn: i64,
     pub asn_name: String,
     pub relationship: String,
 }
