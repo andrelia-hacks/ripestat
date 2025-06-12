@@ -6,6 +6,8 @@ edition.workspace = true
 license.workspace = true
 repository.workspace = true
 
+exclude = ["/src/resources/test_files/*"]
+
 [dependencies]
 chrono.workspace = true
 reqwest.workspace = true
