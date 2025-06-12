@@ -1,8 +1,10 @@
 [package]
 name = "ripestat-cli"
+description = "Stubbed out CLI tool for interacting with the RIPEstat API"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+repository.workspace = true
 
 [dependencies]
 

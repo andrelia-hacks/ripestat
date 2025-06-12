@@ -1,8 +1,10 @@
 [package]
 name = "ripestat"
+description = "Rust client for the RIPEstat API"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+repository.workspace = true
 
 [dependencies]
 
