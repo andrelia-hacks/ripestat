@@ -8,8 +8,8 @@ repository.workspace = true
 
 [dependencies]
 
-ripestat = { version = "0.0.2", path = "../ripestat" }
-ripestat-common = { version = "0.0.2", path = "../ripestat-common" }
+ripestat = { version = "0.0.3", path = "../ripestat" }
+ripestat-common = { version = "0.0.3", path = "../ripestat-common" }
 
 serde_json.workspace = true
 thiserror.workspace = true
