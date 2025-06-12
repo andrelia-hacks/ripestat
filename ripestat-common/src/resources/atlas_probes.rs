@@ -22,6 +22,7 @@ pub struct Probe {
     pub is_anchor: bool,
     pub last_connected: Option<i64>,
     pub tags: Vec<String>,
+    #[serde(rename = "type")]
     pub type_field: String,
     pub address_v6: Option<String>,
     pub latitude: f64,

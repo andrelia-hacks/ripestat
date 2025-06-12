@@ -24,6 +24,7 @@ pub struct AtlasMeasurement {
     pub dst_addr: String,
     pub dst_asn: Option<i64>,
     pub status: Status,
+    #[serde(rename = "type")]
     pub type_field: Type,
     pub creation_time: i64,
     pub description: String,
