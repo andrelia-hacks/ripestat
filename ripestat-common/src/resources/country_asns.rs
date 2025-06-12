@@ -20,12 +20,12 @@ pub struct CountryAsnsResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Country {
-    pub stats: Stats,
+    pub stats: CountryAsnStats,
     pub resource: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Stats {
+pub struct CountryAsnStats {
     pub registered: i64,
     pub routed: i64,
 }

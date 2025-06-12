@@ -22,7 +22,7 @@ pub struct CountryResourceStatsResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Stat {
-    pub timeline: Vec<Timeline>,
+    pub timeline: Vec<CountryResourceStatsTimeline>,
     pub v4_prefixes_ris: i64,
     pub v6_prefixes_ris: i64,
     pub asns_ris: i64,
@@ -33,7 +33,7 @@ pub struct Stat {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Timeline {
+pub struct CountryResourceStatsTimeline {
     pub starttime: String,
     pub endtime: String,
 }

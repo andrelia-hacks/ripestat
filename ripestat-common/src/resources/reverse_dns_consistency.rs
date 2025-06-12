@@ -20,12 +20,12 @@ pub struct ReverseDnsConsistencyResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Prefixes {
-    pub ipv4: HashMap<String,Prefix>,
-    pub ipv6: HashMap<String,Prefix>,
+    pub ipv4: HashMap<String,ReverseDnsPrefix>,
+    pub ipv6: HashMap<String,ReverseDnsPrefix>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Prefix {
+pub struct ReverseDnsPrefix {
     pub complete: bool,
     pub domains: Vec<Domain>,
 }

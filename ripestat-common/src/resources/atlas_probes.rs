@@ -8,7 +8,7 @@ pub struct AtlasProbesRequest {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct AtlasProbesResponse {
     pub probes: Vec<Probe>,
-    pub stats: Stats,
+    pub stats: AtlasProbesStats,
     pub resource: String,
     pub cache: Option<bool>,
 }
@@ -38,6 +38,6 @@ pub struct Probe {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Stats {
+pub struct AtlasProbesStats {
     pub total: i64,
 }

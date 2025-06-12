@@ -8,21 +8,21 @@ pub struct RirStatsCountryRequest {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RirStatsCountryResponse {
-    pub located_resources: Vec<LocatedResource>,
+    pub located_resources: Vec<RirStatsCountryLocatedResource>,
     pub result_time: String,
-    pub parameters: Parameters,
+    pub parameters: RirStatsCountryParameters,
     pub earliest_time: String,
     pub latest_time: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct LocatedResource {
+pub struct RirStatsCountryLocatedResource {
     pub resource: String,
     pub location: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Parameters {
+pub struct RirStatsCountryParameters {
     pub resource: String,
     pub query_time: String,
     pub cache: Option<bool>,

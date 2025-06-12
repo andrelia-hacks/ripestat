@@ -15,13 +15,13 @@ pub struct HistoricalWhoisResponse {
     pub whois_type: String,
     pub database: String,
     pub access: String,
-    pub suggestions: Vec<Suggestion>,
+    pub suggestions: Vec<WhoisSuggestion>,
     pub version: String,
     pub cache: Option<bool>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Suggestion {
+pub struct WhoisSuggestion {
     #[serde(rename = "type")]
     pub suggestion_type: String,
     pub key: String,

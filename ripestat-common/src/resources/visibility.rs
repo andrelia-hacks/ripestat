@@ -20,7 +20,7 @@ pub struct VisibilityResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Visibility {
-    pub probe: Probe,
+    pub probe: VisibilityProbe,
     pub ipv4_full_table_peers_not_seeing: Vec<Ipv4FullTablePeersNotSeeing>,
     pub ipv6_full_table_peers_not_seeing: Vec<Ipv6FullTablePeersNotSeeing>,
     pub ipv4_full_table_peer_count: i64,
@@ -28,7 +28,7 @@ pub struct Visibility {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Probe {
+pub struct VisibilityProbe {
     pub city: String,
     pub country: String,
     pub longitude: f64,

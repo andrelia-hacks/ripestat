@@ -7,15 +7,15 @@ pub struct AtlasTargetsRequest {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct AtlasTargetsResponse {
-    pub measurements: Vec<Measurement>,
-    pub stats: Stats,
+    pub measurements: Vec<AtlasMeasurement>,
+    pub stats: AtlasTargetsStats,
     pub resource: String,
     pub authenticated: bool,
     pub cache: Option<bool>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Measurement {
+pub struct AtlasMeasurement {
     pub af: i64,
     pub msm_id: i64,
     pub stop_time: Option<i64>,
@@ -46,6 +46,6 @@ pub struct Type {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Stats {
+pub struct AtlasTargetsStats {
     pub total: i64,
 }

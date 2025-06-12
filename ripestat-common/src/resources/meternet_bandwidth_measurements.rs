@@ -10,7 +10,7 @@ pub struct MeternetBandwidthMeasurementsRequest {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct MeternetBandwidthMeasurementsResponse {
     pub measurements: Vec<Measurement>,
-    pub statistics: Statistics,
+    pub statistics: MeternetStatistics,
     pub resource: String,
     pub starttime: String,
     pub endtime: String,
@@ -28,6 +28,6 @@ pub struct Measurement {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Statistics {
+pub struct MeternetStatistics {
     pub measurements: i64,
 }

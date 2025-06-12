@@ -15,14 +15,14 @@ pub struct PrefixTimeline {
 }
 
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]
-pub struct Prefix {
+pub struct AnnouncedPrefix {
     pub prefix: String,
     pub timelines: Vec<PrefixTimeline>,
 }
 
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]
 pub struct AnnouncedPrefixesResponse {
-    pub prefixes: Vec<Prefix>,
+    pub prefixes: Vec<AnnouncedPrefix>,
 
     pub resource: String,
 

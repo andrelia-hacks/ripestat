@@ -13,19 +13,19 @@ pub struct AsnNeighboursHistoryResponse {
     pub resource: String,
     pub query_starttime: String,
     pub query_endtime: String,
-    pub neighbours: Vec<Neighbour>,
+    pub neighbours: Vec<AsnHistoryNeighbour>,
     pub latest_time: String,
     pub earliest_time: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Neighbour {
+pub struct AsnHistoryNeighbour {
     pub neighbour: String,
-    pub timelines: Vec<Timeline>,
+    pub timelines: Vec<AsnNeighboursHistoryTimeline>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Timeline {
+pub struct AsnNeighboursHistoryTimeline {
     pub starttime: String,
     pub endtime: String,
 }

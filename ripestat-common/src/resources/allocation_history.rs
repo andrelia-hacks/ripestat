@@ -3,8 +3,8 @@ use serde::{Deserialize, Serialize};
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]
 pub struct AllocationHistoryRequest {
     pub resource: String,
-    pub starttime: Option<bool>,
-    pub endtime: Option<bool>,
+    pub starttime: Option<String>,
+    pub endtime: Option<String>,
 }
 
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]

@@ -180,6 +180,7 @@ pub fn create_client(config: &ClientConfig) -> Result<Client, RipestatClientErro
 }
 
 pub(crate) struct WrappedResponse {
+    #[allow(dead_code)]
     pub(crate) http_data: HttpData,
     pub(crate) text: String,
 }

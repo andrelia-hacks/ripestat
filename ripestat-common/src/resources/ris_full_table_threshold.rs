@@ -12,11 +12,11 @@ pub struct RisFullTableThresholdResponse {
     pub v6: i64,
     pub latest_time: String,
     pub earliest_time: String,
-    pub parameters: Parameters,
+    pub parameters: RisFullTableThresholdParameters,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Parameters {
+pub struct RisFullTableThresholdParameters {
     pub query_time: String,
     pub cache: Option<bool>,
 }

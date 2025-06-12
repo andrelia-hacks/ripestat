@@ -28,13 +28,13 @@ pub struct Series {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Delegated {
-    pub prefixes: Prefixes,
+    pub prefixes: RpkiPrefixes,
     pub space: Space,
     pub samples: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Prefixes {
+pub struct RpkiPrefixes {
     pub count: f64,
     pub covered_by_rpki: CoveredByRpki,
 }

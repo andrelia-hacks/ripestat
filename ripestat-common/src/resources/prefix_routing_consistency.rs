@@ -9,7 +9,7 @@ pub struct PrefixRoutingConsistencyRequest {
 pub struct PrefixRoutingConsistencyResponse {
     pub resource: String,
     pub routes: Vec<Route>,
-    pub parameters: Parameters,
+    pub parameters: PrefixRoutingConsistencyParameters,
     pub query_starttime: String,
     pub query_endtime: String,
 }
@@ -25,7 +25,7 @@ pub struct Route {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Parameters {
+pub struct PrefixRoutingConsistencyParameters {
     pub resource: String,
     pub data_overload_limit: String,
 }

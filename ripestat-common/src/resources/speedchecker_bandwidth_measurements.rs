@@ -11,7 +11,7 @@ pub struct SpeedcheckerBandwidthMeasurementsRequest {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct SpeedcheckerBandwidthMeasurementsResponse {
     pub measurements: Vec<Value>,
-    pub statistics: Statistics,
+    pub statistics: SpeedcheckerStatistics,
     pub resource: String,
     pub starttime: String,
     pub endtime: String,
@@ -21,6 +21,6 @@ pub struct SpeedcheckerBandwidthMeasurementsResponse {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Statistics {
+pub struct SpeedcheckerStatistics {
     pub measurements: i64,
 }

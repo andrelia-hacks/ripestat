@@ -15,11 +15,11 @@ pub struct RirResponse {
     pub query_starttime: String,
     pub query_endtime: String,
     pub lod: i64,
-    pub rirs: Vec<Rir>,
+    pub rirs: Vec<RirSeen>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Rir {
+pub struct RirSeen {
     pub rir: String,
     pub first_time: String,
     pub last_time: String,

@@ -12,14 +12,14 @@ pub struct MaxmindGeoLiteResponse {
     pub result_time: String,
     pub latest_time: String,
     pub earliest_time: String,
-    pub parameters: Parameters,
+    pub parameters: MaxmindGeoLiteParameters,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct LocatedResource {
     pub resource: String,
     pub locations: Vec<Location>,
-    pub unknown_percentage: i64,
+    pub unknown_percentage: f64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -35,10 +35,11 @@ pub struct Location {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct UnknownPercentage {
     pub v4: f64,
+    pub v6: f64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Parameters {
+pub struct MaxmindGeoLiteParameters {
     pub resource: String,
     pub resolution: String,
     pub cache: Option<bool>,

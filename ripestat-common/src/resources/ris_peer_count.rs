@@ -19,18 +19,18 @@ pub struct RisPeerCountResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct PeerCount {
-    pub v4: V4,
-    pub v6: V6,
+    pub v4: V4Peers,
+    pub v6: V6Peers,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct V4 {
+pub struct V4Peers {
     pub total: Vec<Total>,
     pub full_feed: Vec<FullFeed>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct V6 {
+pub struct V6Peers {
     pub total: Vec<Total>,
     pub full_feed: Vec<FullFeed>,
 }

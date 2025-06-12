@@ -8,14 +8,14 @@ pub struct RisPeersRequest {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RisPeersResponse {
-    pub peers: HashMap<String, Vec<Peer>>,
+    pub peers: HashMap<String, Vec<RisPeersPeer>>,
     pub latest_time: String,
     pub earliest_time: String,
-    pub parameters: Parameters,
+    pub parameters: RisPeersParameters,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Peer {
+pub struct RisPeersPeer {
     pub asn: String,
     pub ip: String,
     pub v4_prefix_count: i64,
@@ -23,7 +23,7 @@ pub struct Peer {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Parameters {
+pub struct RisPeersParameters {
     pub query_time: String,
     pub cache: Option<bool>,
 }

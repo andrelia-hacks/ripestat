@@ -14,11 +14,11 @@ pub struct Rrc {
     pub multihop: bool,
     pub activated_on: String,
     pub deactivated_on: String,
-    pub peers: Vec<Peer>,
+    pub peers: Vec<RrcInfoPeer>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Peer {
+pub struct RrcInfoPeer {
     pub asn: i64,
     pub ip: String,
     pub v4_prefix_count: i64,

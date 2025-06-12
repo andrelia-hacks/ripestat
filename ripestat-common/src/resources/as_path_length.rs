@@ -1,23 +1,30 @@
 use serde::{Deserialize, Serialize};
 
+#[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize, strum_macros::Display)]
+#[serde(rename_all = "lowercase")]
+pub enum SortBy {
+    Number,
+    Count,
+    Location,
+    Geo,
+}
+
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]
 pub struct AsPathLengthRequest {
     pub resource: String,
-    pub sort_by: Option<String>,
+    pub sort_by: Option<SortBy>,
 }
-// TODO: sort_by enum
-// "number", "count", "location", "geo"
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct AsPathLengthResponse {
-    pub stats: Vec<Stat>,
+    pub stats: Vec<AsPathLengthStat>,
     pub resource: String,
     pub query_time: String,
     pub sort_by: String,
 }
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
-pub struct Stat {
+pub struct AsPathLengthStat {
     pub number: i64,
     pub count: i64,
     pub location: String,

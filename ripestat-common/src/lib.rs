@@ -166,7 +166,6 @@ pub enum RipeStatRequest {
     IanaRegistryInfoRequest(IanaRegistryInfoRequest),
     LookingGlassRequest(LookingGlassRequest),
     MaxmindGeoLiteRequest(MaxmindGeoLiteRequest),
-    MaxmindGeoLiteAnnouncedByAsRequest(MaxmindGeoLiteAnnouncedByAsRequest),
     MeternetBandwidthMeasurementsRequest(MeternetBandwidthMeasurementsRequest),
     MlabActivityCountRequest(MlabActivityCountRequest),
     MlabBandwidthRequest(MlabBandwidthRequest),
@@ -324,8 +323,8 @@ impl<'de> Deserialize<'de> for RipeStatResponse {
             RipeStatDataType::MaxmindGeoLite => RipeStatResponseData::MaxmindGeoLiteResponse(
                 MaxmindGeoLiteResponse::deserialize(data.data).map_err(serde::de::Error::custom)?,
             ),
-            RipeStatDataType::MaxmindGeoLiteAnnouncedByAs => RipeStatResponseData::MaxmindGeoLiteAnnouncedByAsResponse(
-                MaxmindGeoLiteAnnouncedByAsResponse::deserialize(data.data).map_err(serde::de::Error::custom)?,
+            RipeStatDataType::MaxmindGeoLiteAnnouncedByAs => RipeStatResponseData::MaxmindGeoLiteResponse(
+                MaxmindGeoLiteResponse::deserialize(data.data).map_err(serde::de::Error::custom)?,
             ),
             RipeStatDataType::MeternetBandwidthMeasurements => RipeStatResponseData::MeternetBandwidthMeasurementsResponse(
                 MeternetBandwidthMeasurementsResponse::deserialize(data.data).map_err(serde::de::Error::custom)?,
@@ -474,7 +473,6 @@ pub enum RipeStatResponseData {
     IanaRegistryInfoResponse(IanaRegistryInfoResponse),
     LookingGlassResponse(LookingGlassResponse),
     MaxmindGeoLiteResponse(MaxmindGeoLiteResponse),
-    MaxmindGeoLiteAnnouncedByAsResponse(MaxmindGeoLiteAnnouncedByAsResponse),
     MeternetBandwidthMeasurementsResponse(MeternetBandwidthMeasurementsResponse),
     MlabActivityCountResponse(MlabActivityCountResponse),
     MlabBandwidthResponse(MlabBandwidthResponse),

@@ -16,12 +16,12 @@ pub struct RisPeeringsResponse {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Peering {
-    pub probe: Probe,
-    pub peers: Vec<Peer>,
+    pub probe: RisAtlasProbe,
+    pub peers: Vec<RisPeeringsPeer>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Probe {
+pub struct RisAtlasProbe {
     pub city: String,
     pub country: String,
     pub longitude: f64,
@@ -33,16 +33,16 @@ pub struct Probe {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Peer {
+pub struct RisPeeringsPeer {
     pub asn: i64,
     pub ip: String,
     pub ip_version: String,
     pub table_version: String,
     pub prefix_count: i64,
-    pub routes: Vec<Route>,
+    pub routes: Vec<PeerRoute>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Route {
+pub struct PeerRoute {
     pub as_path: Vec<i64>,
 }

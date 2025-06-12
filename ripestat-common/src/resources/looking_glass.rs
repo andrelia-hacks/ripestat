@@ -8,21 +8,21 @@ pub struct LookingGlassRequest {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct LookingGlassResponse {
-    pub rrcs: Vec<Rrc>,
+    pub rrcs: Vec<LookingGlassRrc>,
     pub query_time: String,
     pub latest_time: String,
-    pub parameters: Parameters,
+    pub parameters: LookingGlassParameters,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Rrc {
+pub struct LookingGlassRrc {
     pub rrc: String,
     pub location: String,
-    pub peers: Vec<Peer>,
+    pub peers: Vec<LookingGlassPeer>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Peer {
+pub struct LookingGlassPeer {
     pub asn_origin: String,
     pub as_path: String,
     pub community: String,
@@ -37,7 +37,7 @@ pub struct Peer {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Parameters {
+pub struct LookingGlassParameters {
     pub resource: String,
     pub look_back_limit: i64,
     pub cache: Option<bool>,

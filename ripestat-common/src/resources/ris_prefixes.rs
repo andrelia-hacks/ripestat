@@ -12,7 +12,7 @@ pub struct RisPrefixesRequest {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RisPrefixesResponse {
-    pub counts: Counts,
+    pub counts: PrefixCounts,
     pub resource: String,
     pub query_time: String,
     pub list_prefixes: bool,
@@ -25,19 +25,19 @@ pub struct RisPrefixesResponse {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Counts {
-    pub v4: V4,
-    pub v6: V6,
+pub struct PrefixCounts {
+    pub v4: V4Prefixes,
+    pub v6: V6Prefixes,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct V4 {
+pub struct V4Prefixes {
     pub originating: i64,
     pub transiting: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct V6 {
+pub struct V6Prefixes {
     pub originating: i64,
     pub transiting: i64,
 }

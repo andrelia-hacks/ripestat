@@ -8,12 +8,12 @@ pub struct RelatedPrefixesRequest {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RelatedPrefixesResponse {
     pub resource: String,
-    pub prefixes: Vec<Prefix>,
+    pub prefixes: Vec<RelatedPrefix>,
     pub query_time: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Prefix {
+pub struct RelatedPrefix {
     pub prefix: String,
     pub origin_asn: String,
     pub asn_name: String,

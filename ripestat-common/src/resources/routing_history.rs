@@ -30,11 +30,11 @@ pub struct ByOrigin {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Prefix {
     pub prefix: String,
-    pub timelines: Vec<Timeline>,
+    pub timelines: Vec<RoutingHistoryTimeline>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Timeline {
+pub struct RoutingHistoryTimeline {
     pub starttime: String,
     pub endtime: String,
     pub full_peers_seeing: f64,

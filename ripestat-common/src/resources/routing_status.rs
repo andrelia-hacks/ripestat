@@ -11,7 +11,7 @@ pub struct RoutingStatusRequest {
 pub struct RoutingStatusResponse {
     pub first_seen: FirstSeen,
     pub last_seen: LastSeen,
-    pub visibility: Visibility,
+    pub visibility: IpVisibility,
 
     // Only for resource type AS
     pub announced_space: AnnouncedSpace,
@@ -53,25 +53,25 @@ pub struct LastSeen {
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct Visibility {
-    pub v4: V4,
-    pub v6: V6,
+pub struct IpVisibility {
+    pub v4: V4RisPeers,
+    pub v6: V6RisPeers,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct AnnouncedSpace {
-    pub v4: V4,
-    pub v6: V6,
+    pub v4: V4RisPeers,
+    pub v6: V6RisPeers,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct V4 {
+pub struct V4RisPeers {
     pub ris_peers_seeing: i64,
     pub total_ris_peers: i64,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
-pub struct V6 {
+pub struct V6RisPeers {
     pub ris_peers_seeing: i64,
     pub total_ris_peers: i64,
 }

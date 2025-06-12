@@ -23,12 +23,12 @@ pub struct BgpUpdateActivityResponse {
     pub resource_type: String,
     pub sampling_period: f64,
     pub sampling_period_human: String,
-    pub updates: Vec<Update>,
+    pub updates: Vec<BgpUpdate>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 
-pub struct Update {
+pub struct BgpUpdate {
     pub announcements: i64,
     pub withdrawals: i64,
     pub starttime: String,

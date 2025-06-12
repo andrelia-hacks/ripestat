@@ -1,5 +1,5 @@
 use ripestat::{
-    resources::abuse_contact_finder::abuse_contact_finder,
+    resources::abuse_contact_finder,
     client::{self},
     RipestatClientError,
 };
